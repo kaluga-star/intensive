@@ -1,0 +1,112 @@
+/* Общие стили для приложения */
+body {
+  background-image: url("assets/image.webp") ;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+
+}
+
+/* Стили для заголовков */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px 0;
+  color: #61dafb;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+/* Стили для списка ресурсов */
+.myLi {
+  list-style-type: decimal;
+  margin-left: 10px;
+    background: rgba(9, 9, 119, 0.694); /* Синий цвет с прозрачностью 50% */
+    border-radius: 10px; /* Закругление углов */
+    padding: 10px;
+    padding-left: 40px; ; /* Отступы внутри элемента */
+    
+
+
+}
+
+.myLi li {
+  margin: 10px 0;
+}
+.Logo {
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+}
+
+/* Стили для блоков уроков */
+.lesson-container {
+  margin: 20px;
+  font-size: 24px;
+}
+
+.lesson-block {
+  margin: 10px 0;
+}
+
+.lesson-block.active {
+  font-weight: bold;
+  color: white;
+}
+
+.lesson-block.inactive {
+  font-weight: normal;
+  color: gray;
+}
+
+/* Стили для кнопки */
+.next-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.myLi {
+    color: white;
+}
+
+div {
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+.Lesson{
+    color: white;
+    margin-left: 10px;
+    background: rgba(9, 9, 119, 0.694); /* Синий цвет с прозрачностью 50% */
+    border-radius: 10px; /* Закругление углов */
+    padding: 10px;
+    padding-left: 40px; ; /* Отступы внутри элемента */
+
+}
+
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
