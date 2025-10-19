@@ -1,14 +1,14 @@
 import React from 'react';
-import Logo from '../assets/sputnik.webp';
-import O1 from '../assets/O1.jpg';
+// import Logo from 'sputnik.webp';
+// import O1 from 'O1.jpg';
 
 
 const Lesson03 = () => {
   return (
     <div className='Lesson'>
-      <div className='Logo'><h2>Обратный отсчет. Один.</h2><img src={Logo} alt="Спутник" /></div>
+      <div className='Logo'><h2>Обратный отсчет. Один.</h2><img src="/sputnik.webp" alt="Спутник" /></div>
   <p>Продолжаем работу над нашим проектом. Задание - просмотреть видео ,</p> <br />
-  <a href="https://disk.yandex.ru/i/E7bODCmP8jdyBw"  target="_blank" rel="noopener noreferrer"><img src={O1} alt="Заняти 3" /></a>  <br />  
+  <a href="https://disk.yandex.ru/i/E7bODCmP8jdyBw"  target="_blank" rel="noopener noreferrer"><img src="/O1.jpg" alt="Занятие 3" /></a>  <br />  
 
 <p>написать код, чтобы при пересечении с некоторыми объектами задавались
 вопросы, пользователь отвечал на них и программа подсчитывала очки.

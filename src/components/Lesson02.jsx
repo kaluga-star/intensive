@@ -1,14 +1,14 @@
 import React from 'react';
-import Logo from '../assets/sputnik.webp';
-import O2 from '../assets/O2.jpg';
+// import Logo from 'sputnik.webp';
+// import O2 from 'O2.jpg';
 
 
 const Lesson02 = () => {
   return (
     <div className='Lesson'>
-      <div className='Logo'><h2>Обратный отсчет. Два.</h2><img src={Logo} alt="Спутник" /></div>
+      <div className='Logo'><h2>Обратный отсчет. Два.</h2><img src="/sputnik.webp" alt="Спутник" /></div>
   <p>Просмотрите видеоролик.</p> <br />
-  <a href="https://disk.yandex.ru/i/yXNwDpkovqUlFw"  target="_blank" rel="noopener noreferrer"><img src={O2} alt="Заняти 2" /></a>  <br />  
+  <a href="https://disk.yandex.ru/i/yXNwDpkovqUlFw"  target="_blank" rel="noopener noreferrer"><img src="/O2.jpg" alt="Занятие 2" /></a>  <br />  
 
 <p>Выполните следующие задания: 1 - повесить на объекты скрипты для их
 движения, 2 - прописать код для взаимодействия объектов, 3- создать

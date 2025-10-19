@@ -1,6 +1,6 @@
 /* Общие стили для приложения */
 body {
-  background-image: url("assets/image.webp") ;
+  background-image: url("image.webp") ;
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;

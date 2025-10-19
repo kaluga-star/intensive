@@ -1,11 +1,11 @@
 import React from 'react';
-import Logo from '../assets/sputnik.webp';
+// import Logo from 'sputnik.webp';
 
 
 const Lesson00 = () => {
   return (
     <div className='Lesson'>
-      <div className='Logo'><h2>Подготовка к старту</h2><img src={Logo} alt="Спутник" /></div>
+      <div className='Logo'><h2>Подготовка к старту</h2><img src="/sputnik.webp" alt="Спутник" /></div>
       
       <h3>Информация по интенсиву - мероприятие для начинающих 9-12 лет,
 познакомимся с средой программирования Scratch, а в качестве практики

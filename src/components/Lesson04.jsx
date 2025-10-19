@@ -1,15 +1,12 @@
 import React from 'react';
-import Logo from '../assets/sputnik.webp';
-import Start from '../assets/start.jpg';
+// import Logo from 'sputnik.webp';
+// import Start from 'start.jpg';
 
 
 const Lesson04 = () => {
   return (
     <div className='Lesson'>
-      <div className='Logo'><h2>Поехалииии!!!.</h2><img src={Logo} alt="Спутник" /></div>
-  <p>Продолжаем работу над нашим проектом. Задание - просмотреть видео ,</p> <br />
-  <a href="https://disk.yandex.ru/i/E7bODCmP8jdyBw"><img src={Start} alt="Итог" /></a>  <br />  
-
+      <div className='Logo'><h2>Поехалииии!!!.</h2><img src="/sputnik.webp" alt="Спутник" /></div>
 <p>
   Cегодня заключительный этап нашей работы. Мы готовы начать путешествие по
 нашим мирам. <br /> Просмотрите инструкцию по публикации работ, для
